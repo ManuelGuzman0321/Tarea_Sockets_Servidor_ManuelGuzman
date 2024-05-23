@@ -1,16 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package tarea_sockets_servidor_manuelguzman;
 
 import java.io.*;
 import java.net.*;
 public class Interfacez extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Interfacez
-     */
+String Nombre, Cedula,Comunidad, Direccion, TipoDeTarjeta, telefono;
+int Monto,NumeroTarjeta, Pin;
+
+    
     public Interfacez() {
         initComponents();
         PanelVerificadorRetirar.setVisible(false);
